@@ -6,13 +6,12 @@
 
 # TIB/Rendezvous Example code
 
-# UNIX (GNU make)
-#
+
+
 O = .o
 
 RM = rm -f
 OUT = -o
-OBJOUT = -o
 TIBRV_DIR=$(HOME)/tibco/tibrv/8.6.0
 CC = cc
 LDFLAGS =-L$(TIBRV_DIR)/lib -Wl,-rpath=$(TIBRV_DIR)/lib 
